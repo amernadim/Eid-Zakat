@@ -1,0 +1,88 @@
+@media screen and (max-width:576px) {
+  header{
+    height: auto;
+  }
+  nav{
+    width: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  nav > ul {
+    display: none;
+  }
+ .top-head{
+  height: auto;
+ }
+ .top-child h1 {
+  font-size: 40px;
+  padding-top: 30%;
+ }
+
+ .donation,
+.suvive
+{
+  height: auto;
+  width: 90%;
+  margin: 50px 3%;
+  flex-direction: column;
+}
+.donation > .text-fild ,
+.suvive > .text-fild 
+{
+  width: 90%;
+  margin-top: 10%;
+}
+.donation > .image-fild {
+  width: 95%;
+  height: auto;
+  margin-top: 10%;
+  
+}
+.suvive{
+  flex-direction: column-reverse;
+}
+.suvive > .image-fild {
+  width: 95%;
+  height: auto;
+  margin-top: 10%;
+}
+.directHelp{
+  flex-direction: column; 
+  margin: 5% 2%;
+}
+.card-iteam{
+  margin-top: 10%;
+}
+
+.images{
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px 2%;
+  border-radius: 5px;
+}
+.images .image-card {
+  width: 95%;
+}
+
+.zakatFund{
+  flex-direction: column;
+  margin: 30px 10%;
+  gap: 20px;  
+}
+
+.zakatFund .card-items a{
+  display: block;
+  margin-top: 20px;
+  color: red;
+  border-bottom: 1.5px solid red;
+  width: 60%;
+}
+
+
+}
+
+
+@media screen and (min-width:577px) and (max-width:997) {
+  
+}

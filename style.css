@@ -4,6 +4,7 @@ font-family: 'Lato', sans-serif; */
   padding: 0;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
 }
 header{
   background-image: url(./assets/Rectangle\ 1.png);
@@ -19,6 +20,7 @@ a{
 li{
   list-style: none;
 }
+
 nav{
   background-color: rgba(20, 21, 21, 0.345);
   display: flex;
@@ -34,6 +36,7 @@ nav h2 {
   padding: 20px;
   font-family: 'Edu TAS Beginner', cursive;
 }
+
 nav > ul{
   display:flex;
   justify-content: space-between;
@@ -78,8 +81,6 @@ ul >li:hover >ul {
   font-weight: 600;
   text-align: left;
   padding-top: 14%;
-  /* justify-content: center;
-  align-items: center;  */
 }
 .top-child p{
   color: white;
@@ -174,7 +175,6 @@ ul >li:hover >ul {
 }
 
 .directHelp{
-  margin-top: 20px;
   display: flex;
   gap: 4%;
   height: auto;
@@ -212,7 +212,6 @@ ul >li:hover >ul {
 }
 .images .image-card {
   width: 80%;
-
 }
 .image-card img{
   width: 100%;
@@ -238,8 +237,7 @@ ul >li:hover >ul {
 .zakatFund{
   display: flex;
   margin: 30px 10%;
-  gap: 20px; 
-  
+  gap: 20px;  
 }
 .zakatFund .card-items{
   height: auto;
